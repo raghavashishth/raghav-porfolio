@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Raghav Sharma — Computer Science & AI student portfolio.">
+  <title>Raghav Sharma | Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="progressBar"></div>
+
+  <header class="hero" id="home">
+    <nav class="navbar">
+      <a href="#home" class="logo">RS.</a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-btn" id="themeButton" aria-label="Toggle theme">☀️</button>
+      </div>
+    </nav>
+
+    <div class="hero-content reveal">
+      <p class="eyebrow">HELLO, I'M</p>
+      <h1>Raghav Sharma</h1>
+      <h2>Computer Science &amp; AI Student</h2>
+      <p class="hero-description">
+        Exploring technology, building creative projects, and turning ideas into practical digital experiences.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">Explore My Work</a>
+        <a href="https://www.linkedin.com/in/raghavashishth" class="btn btn-outline" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+      </div>
+
+      <div class="hero-stats">
+        <div><strong>4+</strong><span>Projects</span></div>
+        <div><strong>3rd</strong><span>Semester</span></div>
+        <div><strong>AI</strong><span>Specialization</span></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="section reveal">
+      <p class="eyebrow">GET TO KNOW ME</p>
+      <h2>About Me</h2>
+      <p>Hi! I'm Raghav Sharma, a B.Tech student specializing in Computer Science and Artificial Intelligence at JECRC University, Jaipur.</p>
+      <p>I'm interested in programming, web development, UI/UX design, and generative AI. I enjoy building websites, exploring new technologies, and developing creative solutions to real-world problems.</p>
+      <p><strong>My Goal:</strong> Build strong software fundamentals and turn ideas into useful products.</p>
+    </section>
+
+    <section id="skills" class="section reveal">
+      <p class="eyebrow">WHAT I WORK WITH</p>
+      <h2>My Skills</h2>
+      <div class="skill-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="code">Coding</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+        <button class="filter-btn" data-filter="ai">AI</button>
+      </div>
+      <ul class="skills-list">
+        <li data-category="code">Python</li>
+        <li data-category="code">C++</li>
+        <li data-category="code">HTML &amp; CSS</li>
+        <li data-category="code">JavaScript</li>
+        <li data-category="design">UI/UX Design</li>
+        <li data-category="design">Canva &amp; Graphic Design</li>
+        <li data-category="ai">Generative AI Tools</li>
+        <li data-category="design">Video Editing</li>
+        <li data-category="design">Microsoft Office</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <p class="eyebrow">WHAT I'VE BUILT</p>
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <span class="project-number">01</span>
+          <h3>Sampati Dental Clinic</h3>
+          <p>A digital presence for Sampati Dental Clinic, focused on showcasing dental services, clinic information, and appointment details.</p>
+          <div class="project-tags"><span>Web Development</span><span>Healthcare</span></div>
+          <a href="#" class="project-link" data-message="Add your published Sampati Dental Clinic URL here.">Visit Website →</a>
+        </article>
+
+        <article class="project-card">
+          <span class="project-number">02</span>
+          <h3>CareSlot</h3>
+          <p>A clinic appointment booking platform designed to make healthcare scheduling easier and more accessible.</p>
+          <div class="project-tags"><span>HTML &amp; CSS</span><span>JavaScript</span></div>
+          <a href="#" class="project-link" data-message="Add your CareSlot project URL here.">View Project →</a>
+        </article>
+
+        <article class="project-card">
+          <span class="project-number">03</span>
+          <h3>Lofiverse</h3>
+          <p>A lofi-inspired web experience combining music and a relaxing digital atmosphere.</p>
+          <div class="project-tags"><span>Web Development</span><span>Creative Design</span></div>
+          <a href="#" class="project-link" data-message="Add your Lofiverse project URL here.">View Project →</a>
+        </article>
+
+        <article class="project-card">
+          <span class="project-number">04</span>
+          <h3>College Fest Website</h3>
+          <p>A website concept for presenting college fest information, events, and updates through a digital platform.</p>
+          <div class="project-tags"><span>HTML &amp; CSS</span><span>Generative AI</span></div>
+          <a href="#" class="project-link" data-message="Add your College Fest project URL here.">View Project →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact reveal">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2>Get in Touch</h2>
+      <p>Have an idea, a project, or an opportunity? Feel free to reach out.</p>
+
+      <div class="contact-links">
+        <a href="mailto:raghav8508@gmail.com">Email Me</a>
+        <a href="tel:+918441820075">Call Me</a>
+        <a href="https://www.linkedin.com/in/raghavashishth" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/raghavashishth" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <button id="copyEmail" class="contact-copy">Copy Email</button>
+      </div>
+
+      <p class="contact-details">Email: raghav8508@gmail.com<br>Phone: +91 8441820075</p>
+    </section>
+  </main>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+  <div id="toast" class="toast" role="status"></div>
+
+  <footer>
+    <p>© <span id="year"></span> Raghav Sharma. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
